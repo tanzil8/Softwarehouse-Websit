@@ -10,7 +10,6 @@ import Footer from '@/components/Footer';
 import Contact2 from '@/components/Contact2';
 import FoodStallLocations from '@/components/FoodStallLocations';
 import MediaUpdates from '@/components/MediaUpdates';
-import DonationCTA from '@/components/Donation';
 import DonationSlider from '@/components/DonationSlider';
 import FoodPrograms from '@/components/FoodPrograms';
 
@@ -35,14 +34,8 @@ const Home = () => {
     <Work />
     <DonationSlider />
     {/* <FoodPrograms /> */}
-
-
-
-
-    
     <MediaUpdates />
     {/* <DonationCTA /> */}
-
     <Contact2 />
     <Footer />
     {/*temporary div */}
