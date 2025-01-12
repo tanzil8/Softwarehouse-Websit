@@ -11,7 +11,7 @@ import Contact2 from '@/components/Contact2';
 import FoodStallLocations from '@/components/FoodStallLocations';
 import MediaUpdates from '@/components/MediaUpdates';
 import DonationSlider from '@/components/DonationSlider';
-import FoodPrograms from '@/components/FoodPrograms';
+
 
 
 
@@ -33,7 +33,7 @@ const Home = () => {
     <FoodStallLocations />
     <Work />
     <DonationSlider />
-    {/* <FoodPrograms /> */}
+  
     <MediaUpdates />
     {/* <DonationCTA /> */}
     <Contact2 />
