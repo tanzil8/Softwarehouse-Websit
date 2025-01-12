@@ -38,9 +38,13 @@ const Hero = () => {
             combat hunger and promote community well-being through sustainable food distribution.
           </p>
 
-          <ScrollLink to="contact" smooth>
+          <a 
+            href="https://saylanifoodstats.vercel.app" 
+            target="" 
+            rel="noopener noreferrer"
+          >
             <button className="btn btn-accent mb-8">Donate Now</button>
-          </ScrollLink>
+          </a>
 
           {/* Stats */}
           <Stats />
