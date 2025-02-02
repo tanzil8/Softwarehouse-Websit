@@ -6,27 +6,27 @@ import { useState } from "react"
 
 const services = [
   {
-    icon: "/assets/services/saylani-dasterkhwan.svg",
-    title: "Saylani Dasterkhwan",
-    description: "Providing free, nutritious meals to those in need through our network of Dasterkhwans across the city, ensuring no one goes to bed hungry.",
+    icon: "/assets/contact/img2.jpg",
+    title: "Search Engine Optimization",
+    description: "Search Engine Optimization is one of the most integral parts of a website that helps you rank higher on web pages and get more conversion rates...",
     href: "/services/saylani-dasterkhwan"
   },
   {
-    icon: "/assets/services/roti-bank.svg",
-    title: "Roti Bank",
-    description: "Collecting and distributing fresh rotis to underprivileged communities, bridging the gap between food surplus and scarcity.",
+    icon: "/assets/contact/img3.png",
+    title: "Paid Marketing",
+    description: "Social media has changed the way we live and the way we do business. Every social platform serves an audience with diversified interests...",
     href: "/services/roti-bank"
   },
   {
-    icon: "/assets/services/meat-distribution.svg",
-    title: "Meat Distribution",
-    description: "Distributing quality meat to families in need, ensuring they have access to essential protein sources for a balanced diet.",
+    icon: "/assets/contact/img4.png",
+    title: "Social Media Marketing",
+    description: "Social media Marketing is one of the most essential digital marketing strategies which can maximize your brand’s visibility on...",
     href: "/services/meat-distribution"
   },
   {
-    icon: "/assets/services/mobile-dasterkhwan.svg",
-    title: "Mobile Dasterkhwan",
-    description: "Bringing our Dasterkhwan services to various locations via mobile units, reaching those who cannot access our static distribution points.",
+    icon: "/assets/contact/img5.png",
+    title: "Ecommerce Development",
+    description: "Your website should not just look great; it’s crucial to set the right impression and provide accurate information to your future customers...",
     href: "/services/mobile-dasterkhwan"
   },
 ]
@@ -47,19 +47,13 @@ export default function Services() {
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <Link href={service.href} className="block h-full">
-                <Image
-                  src={service.icon}
-                  width={48}
-                  height={48}
-                  alt={`${service.title} icon`}
-                  className="mb-4"
-                />
+             
+             <img src={service.icon} alt="Card Image 1" class="w-full h-48 object-cover mb-3"/>
                 <h3 className="text-[20px] text-primary font-semibold mb-3">
                   {service.title}
                 </h3>
                 <p className="text-[15px]">{service.description}</p>
-              </Link>
+             
             </li>
           ))}
         </ul>

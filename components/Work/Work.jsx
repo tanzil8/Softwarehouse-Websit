@@ -10,88 +10,42 @@ import Header from "../Header";
 const data = [
   {
     href: "",
-    category: "Karachi",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
+    category: "",
+    img: "/assets/donation/img1.jpg",
+    title: "",
   },
   {
     href: "",
-    category: "Karachi",
-    img: "/assets/work/k2.jpg",
-    title: "Saddar",
+    category: "",
+    img: "/assets/donation/img2.jpg",
+    title: "",
   },
   {
     href: "",
-    category: "Karachi",
-    img: "/assets/work/k3.jpg",
-    title: "Saddar",
+    category: "",
+    img: "/assets/donation/img3.jpg",
+    title: "",
   },
   {
     href: "",
-    category: "Karachi",
-    img: "/assets/work/k4.jpg",
-    title: "Saddar",
+    category: "",
+    img: "/assets/donation/img7.jpg",
+    title: "",
   },
   {
     href: "",
-    category: "Lahore",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
+    category: "",
+    img: "/assets/donation/img5.jpg",
+    title: "",
   },
   {
     href: "",
-    category: "Lahore",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
+    category: "",
+    img: "/assets/donation/img8.jpg",
+    title: "",
   },
-  {
-    href: "",
-    category: "Lahore",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
-  {
-    href: "",
-    category: "Islamabad",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
-  {
-    href: "",
-    category: "Islamabad",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
-  {
-    href: "",
-    category: "Islamabad",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
-  {
-    href: "",
-    category: "Islamabad",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
-  {
-    href: "",
-    category: "Islamabad",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
-  {
-    href: "",
-    category: "Islamabad",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
-  {
-    href: "",
-    category: "Quetta",
-    img: "/assets/work/k1.jpg",
-    title: "Saddar",
-  },
+ 
+
 ];
 
 const Work = () => {
@@ -135,23 +89,10 @@ const Work = () => {
           <Tabs defaultValue="all" className="w-full flex flex-col">
             <div className="flex flex-col xl:flex-row items-center xl:items-start xl:justify-between mb-[30px]">
               <AnimatedText text="Our Latest Works" textStyles="h2 mb-[30px] xl:mb-0" />
-              <TabsList className="max-w-max h-full mb-[30px] flex flex-col md:flex-row gap-4 md:gap-0">
-                {tabData.map((item, index) => {
-                  return (
-                    <TabsTrigger
-                      value={item.category}
-                      key={index}
-                      className="capitalize w-[120px]"
-                      onClick={() => setTabValue(item.category)}
-                    >
-                      {item.category}
-                    </TabsTrigger>
-                  );
-                })}
-              </TabsList>
+             
             </div>
 
-            <TabsContent value={tabValue} className="w-full">
+         
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
                 <AnimatePresence>
                   {filterWork.slice(0, visibleItems).map((item, index) => (
@@ -167,14 +108,8 @@ const Work = () => {
                 </AnimatePresence>
               </div>
 
-              {visibleItems < filterWork.length && (
-                <div className="flex justify-center mt-12">
-                  <button onClick={loadMoreItems} className="btn btn-accent">
-                    Load more
-                  </button>
-                </div>
-              )}
-            </TabsContent>
+             
+          
           </Tabs>
         </section>
 

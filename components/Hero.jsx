@@ -11,7 +11,7 @@ import Stats from "./Stats/Stats";
 const Hero = () => {
   return (
     <section
-      className="h-[800px] relative bg-accent/10
+      className="h-[800px] relative bg-[#4b909f]/10
      xl:bg-white"
       id="home"
     >
@@ -19,31 +19,30 @@ const Hero = () => {
       <Header />
       <div className="container mx-auto h-full">
         <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
-          <h1 className="h1 mb-2 max-w-[320px]">
-            <span className="text-accent">Saylani</span> Food
+          <div className="text-3xl font-extrabold  mb-2 max-w-[320px]">
+            <span className="text-[#4b909f]">Mr Developer</span> <br />
             <TypeAnimation
               preRenderFirstString={true}
-              sequence={["Stall", 2000, "Dasterkhwan", 2000]}
+              sequence={["software Developer", 2000, "Website Developer", 2000,"graphics Designer", 2000]}
               speed={50}
               repeat={Infinity}
               wrapper="span"
               cursor={false}
-              className="ml-2 xl:ml-4"
+              className="ml-2 xl:ml-4 text-black"
             />
-          </h1>
+          </div>
 
           <p className="lead max-w-[476px] mb-7">
-            Saylani Food Stall is a compassionate initiative by Saylani Welfare Trust, 
-            dedicated to providing nutritious meals to those in need. Our mission is to 
-            combat hunger and promote community well-being through sustainable food distribution.
+      if anyone needs a website software or graphic designer for their business, please contact me. Elevate your business to new heights! 
+      lets create something extraordinary together!
           </p>
 
           <a 
-            href="https://saylanifoodstats.vercel.app" 
+            href="" 
             target="" 
             rel="noopener noreferrer"
           >
-            <button className="btn btn-accent mb-8">Donate Now</button>
+            <button className="btn text-white bg-[#4b909f] mb-8">Portfolio</button>
           </a>
 
           {/* Stats */}
@@ -51,10 +50,10 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent">
-          <div className="absolute w-[600px] h-[642px] bottom-1 z-40 left-[6.5vw]">
+        <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-[#4b909f]">
+          <div className="absolute w-[650px] h-[582px] mb-24 bottom-1 z-40 left-[6.5vw]">
             <Image
-              src="/assets/hero/say2.jpg"
+              src="/assets/hero/img1.jpg"
               fill
               quality="100"
               priority
@@ -70,7 +69,7 @@ const Hero = () => {
             data-scroll-speed="0.05"
           >
             <Image
-              src="/assets/hero/arrow.svg"
+              src="/asset/hero/arrow.svg"
               width={160}
               height={160}
               alt="Arrow pointing to content"

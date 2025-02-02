@@ -66,18 +66,17 @@ const Contact = () => {
                 <div className="space-y-4">
                   <div className="flex gap-4">
                     <FaMapMarkerAlt className="text-blue-600 mt-1 flex-shrink-0" />
-                    <p>A-25, off Bahadur Shah Zafar Road, near Grappetite Chowrangi, Bahadurabad Bahadur Yar Jang CHS, Karachi, Karachi City, Sindh</p>
+                    <p>Gulshan e iqbal</p>
                   </div>
                   <div className="flex gap-4">
                     <FaPhone className="text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <p>Tel: (021) 111 729 526</p>
-                      <p>Mobile:(021) 111 729 526 / (021) 111 729 526</p>
+                    <p>Mobile:+(92) 3132662793</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <FaEnvelope className="text-blue-600 mt-1 flex-shrink-0" />
-                    <p>abc@gmail.com</p>
+                    <p>umerkhan8028@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -88,14 +87,14 @@ const Contact = () => {
                   <div className="flex gap-4">
                     <FaMapMarkerAlt className="text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-medium mb-2">Islamabad</p>
+                      <p className="font-medium mb-2">Gulshan e iqbal</p>
                       <p></p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <FaMapMarkerAlt className="text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-medium mb-2">Lahore</p>
+                      <p className="font-medium mb-2">Hyderi</p>
                       <p></p>
                     </div>
                   </div>

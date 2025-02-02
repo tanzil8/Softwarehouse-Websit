@@ -9,19 +9,25 @@ const slides = [
     id: 1,
     title: "URGENT DONATION APPEAL",
     subtitle: "FOOD DONATION",
-    image: "/assets/donation/d1.jpg",
+    image: "/assets/contact/img6.jpg",
   },
   {
     id: 2,
     title: "HELP FEED PEOPLE",
     subtitle: "FOOD DONATION",
-    image: "/assets/donation/d2.jpg",
+    image: "/assets/contact/img7.jpg",
   },
   {
     id: 3,
     title: "SUPPORT FOR ALL",
     subtitle: "FOOD DONATION",
-    image: "/assets/donation/d3.png",
+    image: "/assets/contact/img8.jpg",
+  },
+  {
+    id: 3,
+    title: "SUPPORT FOR ALL",
+    subtitle: "FOOD DONATION",
+    image: "/assets/contact/img9.jpg",
   },
 ]
 
@@ -55,18 +61,8 @@ export default function DonationSlider() {
               />
               <div className="absolute inset-0 bg-black/40" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-6">
-                <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                  {slides[currentSlide].title}
-                </h2>
-                <p className="text-xl md:text-2xl mb-8">
-                  {slides[currentSlide].subtitle}
-                </p>
-                <Button 
-                  size="lg" 
-                  className="bg-green-500 hover:bg-green-600 text-white px-8 py-3"
-                >
-                  Donate Now
-                </Button>
+              
+                
               </div>
             </div>
           </motion.div>

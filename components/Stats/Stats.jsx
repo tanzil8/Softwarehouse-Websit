@@ -2,12 +2,12 @@ import StatsItem from "./StatsItem";
 
 const statsData = [
   {
-    endCountNum: 300000,
+    endCountNum: 5000,
     endCountText: "+",
-    text: "Food Daily",
+    text: "Client website",
   },
   {
-    endCountNum: 50,
+    endCountNum: 2,
     endCountText: "+",
     text: "Branches",
   },
