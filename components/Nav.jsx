@@ -12,7 +12,7 @@ const Nav = () => {
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen)
 
   return (
-    <nav className="bg-[#4b909f] rounded-md w-30">
+    <nav className="bg-[#4b909f] rounded-md w-30 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -39,13 +39,7 @@ const Nav = () => {
                 Services
               </Link>
               <div className="relative">
-                <button
-                  onClick={toggleDropdown}
-                  className="text-white hover:bg-wtext-white hover:text-white px-3 py-2 rounded-md text-sm font-medium inline-flex items-center"
-                >
-                  <span>More</span>
-                  <ChevronDown className="ml-1 h-4 w-4" />
-                </button>
+              
                 {isDropdownOpen && (
                   <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                     <Link href="/team" className="block px-4 py-2 text-sm text-white hover:bg-wtext-white">

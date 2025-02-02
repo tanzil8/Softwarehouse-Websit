@@ -5,7 +5,7 @@ const Logo = ({light = false}) => {
     const colorClass = light ? "text-white" : "text-primary" // default to black
   return (
   <Link href="/" className="font-primary text-4xl tracking-[4px]">
-  <span className={colorClass}>Saylani Food Stall</span>
+  <span className={colorClass}>Mr Developper</span>
   </Link>
   );
 }

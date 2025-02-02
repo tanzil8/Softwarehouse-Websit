@@ -11,7 +11,7 @@ import Stats from "./Stats/Stats";
 const Hero = () => {
   return (
     <section
-      className="h-[800px] relative bg-[#4b909f]/10
+      className=" h-[800px] relative bg-[#4b909f]/10
      xl:bg-white"
       id="home"
     >
@@ -20,10 +20,10 @@ const Hero = () => {
       <div className="container mx-auto h-full">
         <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
           <div className="text-3xl font-extrabold  mb-2 max-w-[320px]">
-            <span className="text-[#4b909f]">Mr Developer</span> <br />
+            <span className="text-[#4b909f]">Mr Developper</span> <br />
             <TypeAnimation
               preRenderFirstString={true}
-              sequence={["software Developer", 2000, "Website Developer", 2000,"graphics Designer", 2000]}
+              sequence={["Software Developer", 2000, "Website Developer", 2000,"Graphics Designer", 2000]}
               speed={50}
               repeat={Infinity}
               wrapper="span"

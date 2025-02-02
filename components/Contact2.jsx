@@ -62,38 +62,38 @@ const Contact2 = () => {
             {/* Address Section */}
            <div className="flex flex-col md:flex-row gap-8 mb-16">
                          <div className="flex-1 bg-gray-100 p-8 rounded-lg text-gray-800 shadow-md">
-                           <h3 className="text-xl font-bold mb-6 text-blue-600">HEAD OFFICE</h3>
+                           <h3 className="text-xl font-bold mb-6 text-[#4b909f]">HEAD OFFICE</h3>
                            <div className="space-y-4">
                              <div className="flex gap-4">
-                               <FaMapMarkerAlt className="text-blue-600 mt-1 flex-shrink-0" />
+                               <FaMapMarkerAlt className="text-[#4b909f] mt-1 flex-shrink-0" />
                                <p>Gulshan e iqbal</p>
                              </div>
                              <div className="flex gap-4">
-                               <FaPhone className="text-blue-600 mt-1 flex-shrink-0" />
+                               <FaPhone className="text-[#4b909f] mt-1 flex-shrink-0" />
                                <div>
                                 
                                  <p>Mobile:+(92) 3132662793</p>
                                </div>
                              </div>
                              <div className="flex gap-4">
-                               <FaEnvelope className="text-blue-600 mt-1 flex-shrink-0" />
+                               <FaEnvelope className="text-[#4b909f] mt-1 flex-shrink-0" />
                                <p>umerkhan8028@gmail.com</p>
                              </div>
                            </div>
                          </div>
 
               <div className="flex-1 bg-gray-100 p-8 rounded-lg text-gray-800 shadow-md">
-                <h3 className="text-xl font-bold mb-6 text-blue-600">BRANCH OFFICES</h3>
+                <h3 className="text-xl font-bold mb-6 text-[#4b909f]">BRANCH OFFICES</h3>
                 <div className="space-y-4">
                   <div className="flex gap-4">
-                    <FaMapMarkerAlt className="text-blue-600 mt-1 flex-shrink-0" />
+                    <FaMapMarkerAlt className="text-[#4b909f] mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-medium mb-2">Gulshan e iqbal</p>
                       <p></p>
                     </div>
                   </div>
                   <div className="flex gap-4">
-                    <FaMapMarkerAlt className="text-blue-600 mt-1 flex-shrink-0" />
+                    <FaMapMarkerAlt className="text-[#4b909f] mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-medium mb-2">Hyderi</p>
                       <p></p>
