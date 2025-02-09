@@ -1,23 +1,23 @@
 import Link from "next/link";
-import {FaFacebookF, FaTwitter, FaLinkedin, FaFacebook} from 'react-icons/fa'
+import {FaFacebookF, FaTwitter, FaLinkedin, FaFacebook, FaTiktok} from 'react-icons/fa'
 import {RiInstagramFill} from 'react-icons/ri'
 
 const socials =[
     {
         icon: <RiInstagramFill />,
-        path: ""
+        path: "https://www.instagram.com/mrdevelopper63"
     },
     {
         icon: <FaFacebookF />,
-        path: ""
+        path: "https://www.facebook.com/mr.developper.2025"
     },
     {
-        icon: <FaTwitter />,
-        path: ""
+        icon: <FaTiktok />,
+        path: "https://tiktok.com/@omer52223"
     },
     {
         icon: <FaLinkedin />,
-        path: ""
+        path: "https://www.linkedin.com/in/omer6662"
     },
 ]
 

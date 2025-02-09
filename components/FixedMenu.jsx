@@ -1,3 +1,5 @@
+"use client"; // Add this at the top of the file
+
 import { AnimatePresence, motion } from "framer-motion"; 
 import { useEffect, useState } from "react"; 
 import { CgMenuGridR } from "react-icons/cg"; 
@@ -75,7 +77,7 @@ const FixedMenu = () => {
               animate={{ y: 0, opacity: 1 }}               
               exit={{ y: 100, opacity: 0 }}               
               transition={{ type: "spring", stiffness: 400, damping: 40 }}               
-              className="fixed z-50 bottom-16 pointer-events-auto"             
+              className="fixed z-50 bottom-16 pointer-events-auto"              
             >               
               <button                 
                 onClick={() => window.location.href = whatsappURL}                 

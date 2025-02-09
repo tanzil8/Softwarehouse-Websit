@@ -22,14 +22,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+        <title>Mr Developper</title>
+        <meta name="description" content="Mr Developper" />
+        <link rel="icon" href="/assets/contact/img18.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/assets/contact/img18.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/contact/img18.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/contact/img18.png" />
       </head>
-      <body className={`antialiased ${inter.variable} ${bebasNeue.variable}`}>
+      <body className={`antialiased`}>
         {children}
       </body>
     </html>
