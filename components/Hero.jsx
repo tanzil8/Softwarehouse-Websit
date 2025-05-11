@@ -23,7 +23,7 @@ const Hero = () => {
             <span className="text-[#4b909f]">Mr Developper</span> <br />
             <TypeAnimation
               preRenderFirstString={true}
-              sequence={["Software Developer", 2000, "Website Developer", 2000,"Graphics Designer", 2000]}
+              sequence={["Website Developer", 2000, "Js Developer", 2000,"Python Developer", 2000]}
               speed={50}
               repeat={Infinity}
               wrapper="span"
@@ -33,8 +33,7 @@ const Hero = () => {
           </div>
 
           <p className="lead max-w-[476px] mb-7">
-      if anyone needs a website software or graphic designer for their business, please contact me. Elevate your business to new heights! 
-      lets create something extraordinary together!
+     "I am a Full Stack Developer with expertise in JavaScript and Python. On the frontend, I specialize in React and Next.js. For the backend, I work with Django, and I use MySQL for database management."
           </p>
 
           <a 
