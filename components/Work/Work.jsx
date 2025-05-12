@@ -66,54 +66,13 @@ const WorkItem = ({ href, category, img, title, description, onProjectClick }) =
 // Enhanced data for projects with proper categories, titles, descriptions and links
 const data = [
   {
-    href: "https://project1.com",
+    href: "https://e-commerce-ui-sigma.vercel.app/",
     category: "web",
-    img: "/assets/donation/img1.jpg",
+    img: "/assets/contact/img34.jpeg",
     title: "E-Commerce Website",
     description: "A modern e-commerce platform with advanced filtering and payment integration.",
   },
-  {
-    href: "https://project1.com",
-    category: "web",
-    img: "/assets/donation/img1.jpg",
-    title: "E-Commerce Website",
-    description: "A modern e-commerce platform with advanced filtering and payment integration.",
-  },
-  {
-    href: "https://project2.com",
-    category: "mobile",
-    img: "/assets/donation/img2.jpg",
-    title: "Mobile App UI",
-    description: "User interface design for a fitness tracking mobile application.",
-  },
-  {
-    href: "https://project3.com",
-    category: "design",
-    img: "/assets/donation/img3.jpg",
-    title: "Brand Identity",
-    description: "Complete brand identity design including logo, color palette, and guidelines.",
-  },
-  {
-    href: "https://project4.com",
-    category: "web",
-    img: "/assets/donation/img7.jpg",
-    title: "Portfolio Website",
-    description: "Responsive portfolio website for a professional photographer.",
-  },
-  {
-    href: "https://project5.com",
-    category: "design",
-    img: "/assets/donation/img5.jpg",
-    title: "Product Packaging",
-    description: "Creative packaging design for an organic food product line.",
-  },
-  {
-    href: "https://project6.com",
-    category: "mobile",
-    img: "/assets/donation/img8.jpg",
-    title: "Mobile Game UI",
-    description: "User interface and experience design for a mobile puzzle game.",
-  },
+ 
 ]
 
 // Main Work Component
