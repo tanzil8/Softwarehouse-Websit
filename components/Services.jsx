@@ -7,26 +7,26 @@ import { useState } from "react"
 const services = [
   {
     icon: "/assets/contact/img22.jpg",
-    title: "Search Engine Optimization",
-    description: "Search Engine Optimization is one of the most integral parts of a website that helps you rank higher on web pages and get more conversion rates...",
+    title: "Java Script",
+    description: "JavaScript is a programming language used to make web pages interactive and dynamic. It runs in browsers and is essential for front-end web development.",
     href: "/services/saylani-dasterkhwan"
   },
   {
     icon: "/assets/contact/img23.jpg",
-    title: "Paid Marketing",
-    description: "Social media has changed the way we live and the way we do business. Every social platform serves an audience with diversified interests...",
+    title: "React",
+    description: "React is a JavaScript library for building fast and interactive user interfaces. It lets developers create reusable UI components for web and mobile apps.",
     href: "/services/roti-bank"
   },
   {
     icon: "/assets/contact/img24.jpg",
-    title: "Social Media Marketing",
-    description: "Social media Marketing is one of the most essential digital marketing strategies which can maximize your brand’s visibility on...",
+    title: "Python",
+    description: "Python is a versatile, beginner-friendly programming language known for its clear syntax and readability. It's widely used in web development, data science, automation, and AI.",
     href: "/services/meat-distribution"
   },
   {
     icon: "/assets/contact/img26.jpg",
-    title: "Ecommerce Development",
-    description: "Your website should not just look great; it’s crucial to set the right impression and provide accurate information to your future customers...",
+    title: "Django",
+    description: "Django is a high-level Python web framework that enables rapid development of secure and scalable web applications. It comes with built-in features like authentication, admin interface, and database management.",
     href: "/services/mobile-dasterkhwan"
   },
 ]
