@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container mx-auto h-full">
         <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
           <div className="text-3xl font-extrabold  mb-2 max-w-[320px]">
-            <span className="text-[#4b909f]">Mr Developper</span> <br />
+            <span className="text-[#4b909f]">Mr Tanzil</span> <br />
             <TypeAnimation
               preRenderFirstString={true}
               sequence={["Website Developer", 2000, "Js Developer", 2000,"Python Developer", 2000]}

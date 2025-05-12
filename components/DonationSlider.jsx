@@ -9,25 +9,25 @@ const slides = [
     id: 1,
     title: "URGENT DONATION APPEAL",
     subtitle: "FOOD DONATION",
-    image: "/assets/contact/img6.jpg",
+    image: "/assets/contact/img29.jpg",
   },
   {
     id: 2,
     title: "HELP FEED PEOPLE",
     subtitle: "FOOD DONATION",
-    image: "/assets/contact/img7.jpg",
+    image: "/assets/contact/img30.avif",
   },
   {
     id: 3,
     title: "SUPPORT FOR ALL",
     subtitle: "FOOD DONATION",
-    image: "/assets/contact/img8.jpg",
+    image: "/assets/contact/img31.jpg",
   },
   {
     id: 3,
     title: "SUPPORT FOR ALL",
     subtitle: "FOOD DONATION",
-    image: "/assets/contact/img9.jpg",
+    image: "/assets/contact/img32.jpg",
   },
 ]
 

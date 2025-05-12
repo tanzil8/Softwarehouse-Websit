@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Mr Developper</title>
         <meta name="description" content="Mr Developper" />
+        
         <link rel="icon" href="/assets/contact/img18.png" type="image/x-icon" />
 <link rel="apple-touch-icon" href="/assets/contact/img18.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/contact/img18.png" />
