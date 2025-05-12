@@ -7,14 +7,14 @@ const statsData = [
     text: "Client website",
   },
   {
-    endCountNum: 2,
-    endCountText: "+",
-    text: "Branches",
+    endCountNum: 100,
+    endCountText: "%",
+    text: "JavaScript",
   },
   {
     endCountNum: 100,
     endCountText: "%",
-    text: "Commitment",
+    text: "Python",
   },
 ];
 

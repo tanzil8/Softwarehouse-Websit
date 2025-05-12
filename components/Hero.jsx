@@ -41,7 +41,7 @@ const Hero = () => {
             target="" 
             rel="noopener noreferrer"
           >
-            <button className="btn text-white bg-[#4b909f] mb-8">Portfolio</button>
+            <button className="btn text-white bg-[#4b909f] mb-8">Contact me </button>
           </a>
 
           {/* Stats */}
