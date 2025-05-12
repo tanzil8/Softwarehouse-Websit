@@ -49,17 +49,25 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-[#4b909f]">
-          <div className="absolute w-[650px] h-[582px] mb-52 bottom-1 z-40 left-[6.5vw]">
-            <Image
-              src="/assets/contact/img27.png"
-              fill
-              quality="100"
-              priority
-              className="object-contain rounded-full"
-              alt="Volunteers distributing food"
-            />
-          </div>
+        <div className=" hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-[#4b909f]">
+         
+
+
+
+   
+        <div className="w-full  max-w-3xl  relative overflow-hidden rounded-xl transition-all duration-300  ">
+          <Image
+      
+            src="/assets/contact/img27.png?height=800&width=1200"
+            width={1200}
+            height={800}
+            alt="Featured image"
+            className="ml-28 w-full object-cover transition-all duration-300 hover:scale-[1.02] hover:shadow-[#3a5e5b]"
+            priority
+          />
+        </div>
+   
+    
 
           {/* Arrow Shape */}
           <div
