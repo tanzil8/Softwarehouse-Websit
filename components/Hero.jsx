@@ -52,7 +52,7 @@ const Hero = () => {
         <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-[#4b909f]">
           <div className="absolute w-[650px] h-[582px] mb-24 bottom-1 z-40 left-[6.5vw]">
             <Image
-              src="/assets/hero/img1.jpg"
+              src="/assets/contact/img1.jpg"
               fill
               quality="100"
               priority

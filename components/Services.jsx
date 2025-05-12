@@ -6,25 +6,25 @@ import { useState } from "react"
 
 const services = [
   {
-    icon: "/assets/contact/img2.jpg",
+    icon: "/assets/contact/img22.jpg",
     title: "Search Engine Optimization",
     description: "Search Engine Optimization is one of the most integral parts of a website that helps you rank higher on web pages and get more conversion rates...",
     href: "/services/saylani-dasterkhwan"
   },
   {
-    icon: "/assets/contact/img3.png",
+    icon: "/assets/contact/img23.jpg",
     title: "Paid Marketing",
     description: "Social media has changed the way we live and the way we do business. Every social platform serves an audience with diversified interests...",
     href: "/services/roti-bank"
   },
   {
-    icon: "/assets/contact/img4.png",
+    icon: "/assets/contact/img24.jpg",
     title: "Social Media Marketing",
     description: "Social media Marketing is one of the most essential digital marketing strategies which can maximize your brand’s visibility on...",
     href: "/services/meat-distribution"
   },
   {
-    icon: "/assets/contact/img5.png",
+    icon: "/assets/contact/img26.jpg",
     title: "Ecommerce Development",
     description: "Your website should not just look great; it’s crucial to set the right impression and provide accurate information to your future customers...",
     href: "/services/mobile-dasterkhwan"
