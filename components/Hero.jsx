@@ -50,9 +50,9 @@ const Hero = () => {
 
         {/* Image */}
         <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-[#4b909f]">
-          <div className="absolute w-[650px] h-[582px] mb-24 bottom-1 z-40 left-[6.5vw]">
+          <div className="absolute w-[650px] h-[582px] mb-52 bottom-1 z-40 left-[6.5vw]">
             <Image
-              src="/assets/contact/img1.jpg"
+              src="/assets/contact/img27.png"
               fill
               quality="100"
               priority
@@ -67,12 +67,7 @@ const Hero = () => {
             data-scroll
             data-scroll-speed="0.05"
           >
-            <Image
-              src="/asset/hero/arrow.svg"
-              width={160}
-              height={160}
-              alt="Arrow pointing to content"
-            />
+          
           </div>
 
           {/* Shape 1 */}
