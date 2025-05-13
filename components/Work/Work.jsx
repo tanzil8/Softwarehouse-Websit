@@ -72,6 +72,13 @@ const data = [
     title: "E-Commerce Website",
     description: "A modern e-commerce platform with advanced filtering and payment integration.",
   },
+  {
+    href: "https://e-commerce-ui-sigma.vercel.app/",
+    category: "web",
+    img: "/assets/contact/img34.jpeg",
+    title: "E-Commerce Website",
+    description: "A modern e-commerce platform with advanced filtering and payment integration.",
+  },
  
 ]
 
